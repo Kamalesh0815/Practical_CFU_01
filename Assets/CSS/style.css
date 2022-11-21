@@ -1,0 +1,112 @@
+.back {
+    background-color: hsl(207, 33%, 95%);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 150px;
+    padding-top: 50px;
+}
+
+
+
+.a{
+    text-decoration: none;
+    color:hsl(231, 7%, 65%);
+    padding: 10px;
+    
+
+}
+
+body{
+    font-size: 18px;
+    max-width:1440px ;
+    font-family: Barlow;  
+    font-weight: 400px; 
+
+}
+
+header{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.head-of-nav{
+    position: absolute;
+    right: 180px;
+}
+
+#colorbutton{
+    background-color: hsl(230, 29%, 20%);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight:bold;
+}
+
+.p{
+    background-color:hsl(230, 29%, 20%);
+    display: inline-block;
+    color:  hsl(231, 7%, 65%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+
+a{
+    color:  hsl(231, 7%, 65%);
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+input[type="button"]{
+         padding: 20px;
+         border-radius: 5px;
+         border: none;
+         background-color: hsl(230, 29%, 20%);
+         color: white;
+         font-weight: 700;
+
+}
+
+input[type="text"]{
+     padding: 20px 80px 20px 15px;
+     opacity: 0.8;
+     border-radius: 5px;
+     border: 1px rgb(149, 150, 150) solid;
+     margin-right: 15px;
+
+}
+
+.linkfont{
+   font-family: Barlow Condensed;
+   font-weight: bold;
+}
+
+.parared{
+    color:hsl(231, 7%, 65%);
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.footertext{
+    color: hsl(230, 11%, 40%);
+    font-weight: 700;
+}
+
+input::placeholder {
+    opacity: .5;
+    font-size: 14px;
+}
+
